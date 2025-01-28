@@ -1,11 +1,7 @@
-import { Button } from "./components/ui/button";
+import { Home } from "./presentation/pages/Home";
 
 function App() {
-  return (
-    <Button className="bg-green-700" variant="outline">
-      Button
-    </Button>
-  );
+  return <Home />;
 }
 
 export default App;
