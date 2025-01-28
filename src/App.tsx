@@ -1,5 +1,11 @@
+import { Button } from "./components/ui/button";
+
 function App() {
-  return <h1 className="text-red-400">teste</h1>;
+  return (
+    <Button className="bg-green-700" variant="outline">
+      Button
+    </Button>
+  );
 }
 
 export default App;
