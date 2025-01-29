@@ -94,7 +94,7 @@ Before starting the frontend, ensure the backend API is running:
 <br>
 **Observação:** Para acessar a API, o backend precisa estar rodando. Clone e execute o projeto [CEP Validation API](https://github.com/souz-dev/cep-validation-api) localmente.
 ```bash
-git clone https://github.com/souz-dev/cep-validation-api
+git clone https://github.com/souz-dev/cep-validation-api.git
 cd cep-validation-api
 npm install
 npm start
