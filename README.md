@@ -1,3 +1,25 @@
+<div align="center">
+  <br />
+    <a href="#" target="_blank">
+      <img src="https://raw.githubusercontent.com/souz-dev/cep-validation-form/refs/heads/main/assets/readme-cover.png" alt="Project Banner">
+    </a>
+  <br />
+
+  <div>
+  
+    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="React.js" />
+    <img src="https://img.shields.io/badge/shadcn%2Fui-000?logo=shadcnui&logoColor=fff&style=for-the-badge" alt="shadcn" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="TailwindCSS" />
+  </div>
+<br/><br/></br>
+
+  <h1 align="center">User Addresss</h1>
+
+   <div align="center">
+    Gerencie os endereços dos seus usuários de forma prática 
+    </div>
+</div>
+
 ## 📋 Sumary
 
 1. 🚀 [Introduction](#introduction)
