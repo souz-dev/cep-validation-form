@@ -91,9 +91,10 @@ npm install
 ### 04 - Run the Backend
 
 Before starting the frontend, ensure the backend API is running:
-
+<br>
+**Observação:** Para acessar a API, o backend precisa estar rodando. Clone e execute o projeto [CEP Validation API](https://github.com/souz-dev/cep-validation-api) localmente.
 ```bash
-git clone https://github.com/souz-dev/cep-validation-api
+git clone https://github.com/souz-dev/cep-validation-api.git
 cd cep-validation-api
 npm install
 npm start
@@ -117,5 +118,21 @@ Contributions, issues, and feature requests are welcome!
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
 
-## 👥 Authors
+## <a name="authors">👥 Authors</a>
+
+<table style="border-collapse: collapse; table-layout: auto text-align: left;">
+
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        <img src="https://avatars.githubusercontent.com/u/72813560?s=400&u=8d8a139a3376a866a0c901dbba3428a876d79b60&v=4" width="60" style="border-radius: 50%; display: block; margin: 0 auto;">
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Hiago Souza</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">
+        <a href="https://www.linkedin.com/in/souz-dev/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/souz-dev" target="_blank">GitHub</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
