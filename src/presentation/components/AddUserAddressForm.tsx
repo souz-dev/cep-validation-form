@@ -14,15 +14,20 @@ import {
   listUserAddressSchema,
   type ListUserAddressFormData,
 } from "../schemas/listItemSchema";
+import { useEffect } from "react";
 
 interface AddUserAdressFormProps {
   onSubmit: (data: ListUserAddressFormData) => void;
+  currentUserAddress?: ListUserAddressFormData | null;
   onCancel: () => void;
+  isPending: boolean;
 }
 
 export function AddUserAddressForm({
   onSubmit,
   onCancel,
+  isPending,
+  currentUserAddress,
 }: AddUserAdressFormProps) {
   const form = useForm<ListUserAddressFormData>({
     resolver: zodResolver(listUserAddressSchema),
@@ -32,6 +37,14 @@ export function AddUserAddressForm({
       cep: "",
     },
   });
+
+  useEffect(() => {
+    if (currentUserAddress) {
+      form.setValue("name", currentUserAddress.name);
+      form.setValue("email", currentUserAddress.email);
+      form.setValue("cep", currentUserAddress.cep);
+    }
+  }, [currentUserAddress, form]);
 
   return (
     <Form {...form}>
@@ -69,7 +82,17 @@ export function AddUserAddressForm({
             <FormItem>
               <FormLabel>CEP</FormLabel>
               <FormControl>
-                <Input placeholder="CEP" {...field} />
+                <Input
+                  type="text"
+                  placeholder="CEP"
+                  maxLength={8}
+                  {...field}
+                  onInput={(e) => {
+                    e.currentTarget.value = e.currentTarget.value
+                      .replace(/[^0-9]/g, "")
+                      .slice(0, 8);
+                  }}
+                />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -79,7 +102,9 @@ export function AddUserAddressForm({
           <Button type="button" variant="outline" onClick={onCancel}>
             Cancelar
           </Button>
-          <Button type="submit">Adicionar</Button>
+          <Button isLoading={isPending} type="submit">
+            {currentUserAddress ? "Editar" : "Adicionar"}
+          </Button>
         </div>
       </form>
     </Form>
