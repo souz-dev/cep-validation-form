@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="#" target="_blank">
-      <img src="https://raw.githubusercontent.com/souz-dev/ProManage-interactive/refs/heads/master/assets/readme-img.png" alt="Project Banner">
+      <img src="https://raw.githubusercontent.com/souz-dev/cep-validation-form/refs/heads/main/assets/readme-cover.png" alt="Project Banner">
     </a>
   <br />
 
