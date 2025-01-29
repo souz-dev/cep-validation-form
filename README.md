@@ -1,12 +1,12 @@
 <div align="center">
   <br />
     <a href="#" target="_blank">
-      <img src="https://raw.githubusercontent.com/souz-dev/cep-validation-form/refs/heads/main/assets/readme-cover.png" alt="Project Banner">
+      <img src="https://raw.githubusercontent.com/souz-dev/ProManage-interactive/refs/heads/master/assets/readme-img.png" alt="Project Banner">
     </a>
   <br />
 
   <div>
-  
+   <img src="https://img.shields.io/badge/-Vite-black?style=for-the-badge&logo=vite&logoColor=white&color=646CFF" alt="Vite" />
     <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="React.js" />
     <img src="https://img.shields.io/badge/shadcn%2Fui-000?logo=shadcnui&logoColor=fff&style=for-the-badge" alt="shadcn" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="TailwindCSS" />
